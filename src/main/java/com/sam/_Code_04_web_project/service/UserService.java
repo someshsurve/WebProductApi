@@ -46,8 +46,8 @@ public class UserService {
         userRepository.save(adminUser);
 
         User adminUser2 = new User();
-        adminUser2.setUserName("admin_01");
-        adminUser2.setUserPassword(getEncodedPassword("admin_01"));
+        adminUser2.setUserName("admin_02");
+        adminUser2.setUserPassword(getEncodedPassword("admin_02"));
         adminUser2.setUserFirstName("admin");
         adminUser2.setUserLastName("1");
         Set<Role> adminRoles2 = new HashSet<>();
